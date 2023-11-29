@@ -13,7 +13,7 @@ public class ExpenseManagerAPITest {
 	public void test1() {
 		
 		
-		Response res = RestAssured.get("http://localhost:8089/ExpenseApp-1/login.jsp");
+		Response res = RestAssured.get("http://localhost:8090/ExpenseApp-1/login.jsp");
 		
 		int code = res.getStatusCode();
 		
